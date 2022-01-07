@@ -2,8 +2,8 @@ package com.google.s9.himart;
 
 public class Client {
 	
-	int money=500;
-	int point=100;
+	int money;
+	int point;
 	
 	public void buy(Himart p) {
 		this.money=this.money-p.price;
